@@ -7,5 +7,4 @@ COPY . /app/
 WORKDIR /app/
 RUN pip3 install --no-cache-dir telebot
 RUN chmod +x *
-RUN ./bgmi
 CMD python3 run_bot.py
